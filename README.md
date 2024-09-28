@@ -2,9 +2,9 @@
 # Towards Dual Transparent Liquid Level Estimation in Biomedical Lab
 
 ### Website:
-Visit our [project website](https://dualtransparency.github.io/liquidlevel/) for more information and visual demonstrations.
+Visit our [Project Website](https://dualtransparency.github.io/liquidlevel/) for more information and visual demonstrations.
 
-Our paper is accepted by [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)]
+Our paper is accepted by [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)
 
 ![Dual Transparent Liquid in Autonomous Biomedical Lab](docs/banner_bg.png)
 
@@ -30,10 +30,14 @@ For more details, please refer to our full [paper (PDF)](docs/ECCV_Paper.pdf) an
 
 Accurate liquid level estimation is a critical task in AI-guided autonomous biomedical laboratories (ABLs) for tasks such as liquid dispensing, aspiration, and mixing. Our work addresses the challenges of estimating the level of **dual transparent liquids**, where both the liquid and the container are transparent, from arbitrary viewpoints in real-world settings.
 
+##
 ![Autonomous Liquid Handling Tasks](docs/section1.png)
+
 
 ### Dataset
 
+##
+##
 ![Chanllenges presented by DTLD Dataset](docs/section2.png)
 The **DTLD dataset** introduces 27,458 images from three biomedical lab scenes, featuring various lighting conditions, liquid colors, and background textures. This dataset is a comprehensive collection to study multi-instance, multi-view, and multi-factor scenarios that accurately represent the complexities of real ABLs.
 
@@ -46,6 +50,9 @@ The **DTLD dataset** introduces 27,458 images from three biomedical lab scenes, 
 ### Methods
 
 We propose an **end-to-end learning method** that detects the **air-liquid interface (ALI)** by using a **Bezier curve-based regression model** for contact line detection and introduces a **Color Rectification Module (CRM)** to enhance accuracy in challenging conditions. The framework includes a combination of RGB and depth data for robust 6D pose estimation, which is vital for accurate liquid level calculation.
+
+##
+##
 ![Method Framework](docs/section3.png)
 
 ### Results
@@ -54,7 +61,7 @@ Our approach achieves state-of-the-art performance in dual transparent liquid le
 
 ![Results Evaluation](docs/section4.png)
 
-For more detailed results, please refer to our [paper (PDF)](docs/ECCV_Paper.pdf).
+For more detailed results, please refer to our [paper](docs/ECCV_Paper.pdf).
 
 ---
 
@@ -76,7 +83,7 @@ git clone https://github.com/dualtransparency/TCLD.git
 
 ## Results and Visualizations
 
-The predicted liquid levels and contact line visualizations can be found on our [website](https://dualtransparency.github.io/liquidlevel/). The following image provides an overview of the visual results: [paper (PDF)](docs/ECCV_SPmaterial.pdf).
+The predicted liquid levels and contact line visualizations can be found on our [website](https://dualtransparency.github.io/liquidlevel/). The following image provides an overview of the visual results: [supplementary paper](docs/ECCV_SPmaterial.pdf).
 
 ---
 
@@ -98,8 +105,10 @@ If you find our work helpful in your research, please consider citing our paper:
 ## Links
 
 - [Project Website](https://dualtransparency.github.io/liquidlevel/)
-- [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)
-- [Paper (PDF)](ECCV_Paper.pdf)
+- [ECCV 2024](https://eccv.ecva.net/)
+- [Paper](ECCV_Paper.pdf)
+- [Supplementary Material](ECCV_Paper.pdf)
 - [Poster](https://eccv.ecva.net/virtual/2024/poster/254)
+- [Huazhong University of Science and Technology]([https://dualtransparency.github.io/liquidlevel/](https://english.hust.edu.cn/))
 
 For more information, please contact us at: [make@hust.edu.cn](mailto:make@hust.edu.cn)
