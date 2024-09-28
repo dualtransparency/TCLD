@@ -1,15 +1,16 @@
 
 # Towards Dual Transparent Liquid Level Estimation in Biomedical Lab
 
-[![ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)](https://eccv.ecva.net/virtual/2024/poster/254)
+### Website:
+Visit our [project website](https://dualtransparency.github.io/liquidlevel/) for more information and visual demonstrations.
 
-This repository contains the official implementation of the paper "Towards Dual Transparent Liquid Level Estimation in Biomedical Lab: Dataset, Methods, and Practices", accepted at ECCV 2024.
+Our paper is accepted by [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)]
+
+![Dual Transparent Liquid in Autonomous Biomedical Lab](docs/banner_bg.png)
 
 ### Dataset:
 You can download the **Dual Transparent Liquid Dataset (DTLD)** from [HuggingFace](https://huggingface.co/datasets/z7r7y7/DLTD).
 
-### Website:
-Visit our [project website](https://dualtransparency.github.io/liquidlevel/) for more information and visual demonstrations.
 
 ## Abstract
 
@@ -68,7 +69,7 @@ To download and use the dataset:
 git clone https://github.com/dualtransparency/TCLD.git
 
 # Download the dataset from HuggingFace
-# (refer to the website for full download instructions)
+# https://huggingface.co/datasets/z7r7y7/DLTD
 ```
 
 ---
