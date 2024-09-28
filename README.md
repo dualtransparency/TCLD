@@ -1,10 +1,14 @@
 
 # Towards Dual Transparent Liquid Level Estimation in Biomedical Lab
+## Xiayu Wang* , Ke Ma* , Ruiyun Zhong* , Xinggang Wang , Yi Fang , Yang Xiao , and Tian Xia†
+## *Contributed equally as co-first authors
+## †Corresponding author
 
 ### Website:
 Visit our [Project Website](https://dualtransparency.github.io/liquidlevel/) for more information and visual demonstrations.
+[[Project Website](https://dualtransparency.github.io/liquidlevel/)](https://dualtransparency.github.io/liquidlevel/)
 
-Our paper is accepted by [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)
+Our paper is accepted by The 18th European Conference on Computer Vision ECCV 2024 [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)
 
 ![Dual Transparent Liquid in Autonomous Biomedical Lab](docs/banner_bg.png)
 
@@ -109,6 +113,6 @@ If you find our work helpful in your research, please consider citing our paper:
 - [Paper](ECCV_Paper.pdf)
 - [Supplementary Material](ECCV_Paper.pdf)
 - [Poster](https://eccv.ecva.net/virtual/2024/poster/254)
-- [Huazhong University of Science and Technology]([https://dualtransparency.github.io/liquidlevel/](https://english.hust.edu.cn/))
+- [Huazhong University of Science and Technology](https://english.hust.edu.cn/)
 
 For more information, please contact us at: [make@hust.edu.cn](mailto:make@hust.edu.cn)
