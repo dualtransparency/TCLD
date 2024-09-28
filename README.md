@@ -1,2 +1,104 @@
-# TCLD
-Transparent Contact Line Detection model
+
+# Towards Dual Transparent Liquid Level Estimation in Biomedical Lab
+
+[![ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)](https://eccv.ecva.net/virtual/2024/poster/254)
+
+This repository contains the official implementation of the paper "Towards Dual Transparent Liquid Level Estimation in Biomedical Lab: Dataset, Methods, and Practices", accepted at ECCV 2024.
+
+### Dataset:
+You can download the **Dual Transparent Liquid Dataset (DTLD)** from [HuggingFace](https://huggingface.co/datasets/z7r7y7/DLTD).
+
+### Website:
+Visit our [project website](https://dualtransparency.github.io/liquidlevel/) for more information and visual demonstrations.
+
+## Abstract
+
+"Dual Transparent Liquid" refers to a liquid and its container, both being transparent. Accurately estimating the levels of such a liquid from arbitrary viewpoints is fundamental and crucial, especially in AI-guided autonomous biomedical laboratories for tasks like liquid dispensing, aspiration, and mixing. This repository provides the dataset, methods, and code implementation for dual transparent liquid level estimation (DTLD). 
+
+### Key Features:
+- **Dual Transparent Liquid Dataset (DTLD)**: Comprises 27,458 images with four object instances captured from multiple views across three biomedical lab scenes.
+- **End-to-End Learning Method**: Detects the liquid contact line and estimates the liquid level.
+- **Color Rectification Module (CRM)**: Enhances detection by stabilizing color distribution at the air-liquid interface.
+- **State-of-the-Art Performance**: Our method achieves high accuracy in real-world biomedical lab tasks.
+
+For more details, please refer to our full [paper (PDF)](docs/ECCV_Paper.pdf) and supplementary [poster](https://eccv.ecva.net/virtual/2024/poster/254).
+
+---
+
+## Introduction
+
+Accurate liquid level estimation is a critical task in AI-guided autonomous biomedical laboratories (ABLs) for tasks such as liquid dispensing, aspiration, and mixing. Our work addresses the challenges of estimating the level of **dual transparent liquids**, where both the liquid and the container are transparent, from arbitrary viewpoints in real-world settings.
+
+![Autonomous Liquid Handling Tasks](docs/section1.png)
+
+### Dataset
+
+![Chanllenges presented by DTLD Dataset](docs/section2.png)
+The **DTLD dataset** introduces 27,458 images from three biomedical lab scenes, featuring various lighting conditions, liquid colors, and background textures. This dataset is a comprehensive collection to study multi-instance, multi-view, and multi-factor scenarios that accurately represent the complexities of real ABLs.
+
+- **Objects**: Three cell flasks and a cylindrical bioreactor.
+- **Views**: Multiple camera views per instance.
+- **Lighting Conditions**: Seven different lighting setups.
+- **Liquid Colors**: Five different liquid colors.
+
+
+### Methods
+
+We propose an **end-to-end learning method** that detects the **air-liquid interface (ALI)** by using a **Bezier curve-based regression model** for contact line detection and introduces a **Color Rectification Module (CRM)** to enhance accuracy in challenging conditions. The framework includes a combination of RGB and depth data for robust 6D pose estimation, which is vital for accurate liquid level calculation.
+![Method Framework](docs/section3.png)
+
+### Results
+
+Our approach achieves state-of-the-art performance in dual transparent liquid level estimation. Experiments show that our method outperforms existing methods in both detection accuracy and liquid level estimation.
+
+![Results Evaluation](docs/section4.png)
+
+For more detailed results, please refer to our [paper (PDF)](docs/ECCV_Paper.pdf).
+
+---
+
+### Dataset Access
+
+The **DTLD dataset** is publicly available on [HuggingFace](https://huggingface.co/datasets/z7r7y7/DLTD). The dataset contains annotated images with 6D pose and liquid level ground truth labels.
+
+To download and use the dataset:
+
+```bash
+# Clone the repository
+git clone https://github.com/dualtransparency/TCLD.git
+
+# Download the dataset from HuggingFace
+# (refer to the website for full download instructions)
+```
+
+---
+
+## Results and Visualizations
+
+The predicted liquid levels and contact line visualizations can be found on our [website](https://dualtransparency.github.io/liquidlevel/). The following image provides an overview of the visual results: [paper (PDF)](docs/ECCV_SPmaterial.pdf).
+
+---
+
+## Citation
+
+If you find our work helpful in your research, please consider citing our paper:
+
+```bibtex
+@inproceedings{wang2024dualtransparent,
+  title={Towards Dual Transparent Liquid Level Estimation in Biomedical Lab: Dataset, Methods, and Practices},
+  author={Xiayu Wang, Ke Ma, Ruiyun Zhong, Xinggang Wang, Yi Fang, Yang Xiao, and Tian Xia},
+  booktitle={ECCV 2024},
+  year={2024}
+}
+```
+
+---
+
+## Links
+
+- [Project Website](https://dualtransparency.github.io/liquidlevel/)
+- [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)
+- [Paper (PDF)](ECCV_Paper.pdf)
+- [Poster](https://eccv.ecva.net/virtual/2024/poster/254)
+
+For more information, please contact us at: [make@hust.edu.cn](mailto:make@hust.edu.cn)
