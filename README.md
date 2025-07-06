@@ -1,37 +1,4 @@
 
-<<<<<<< HEAD
-Our code is developed based on pytorch-auto-drive.\
-Refer to https://github.com/voldemortX/pytorch-auto-drive for more details.
-
-### environment:
-Due to server maintenance, the original virtual environment has been lost. The current running environment configuration is as follows:
-```
-torch==2.4.0
-torchvision==0.19.0
-cuda==11.8
-mmcv==2.2.0
-```
-### dataset
-download DTLD dataset
-
-
-### train
-```
-python main_landet.py --train --config <config file path> 
-```
-eg
-```
-python main_landet.py --train --config configs/lane_detection/bezierlanenet/resnet34_liquid_aug1b_color.py
-```
-
-### test
-```
-python main_landet.py --test --config <config file path> 
-```
-eg
-```
-python main_landet.py --test --config configs/lane_detection/bezierlanenet/resnet34_liquid_aug1b_color.py
-```
 =======
 # Towards Dual Transparent Liquid Level Estimation in Biomedical Lab
 ### Xiayu Wang* , Ke Ma* , Ruiyun Zhong* , Xinggang Wang , Yi Fang , Yang Xiao , and Tian Xia†
@@ -124,6 +91,41 @@ git clone https://github.com/dualtransparency/TCLD.git
 The predicted liquid levels and contact line visualizations can be found on our [website](https://dualtransparency.github.io/liquidlevel/). The following image provides an overview of the visual results: [supplementary paper](docs/ECCV_SPmaterial.pdf).
 
 ---
+
+
+<<<<<<< HEAD
+Our code is developed based on pytorch-auto-drive.\
+Refer to https://github.com/voldemortX/pytorch-auto-drive for more details.
+
+### environment:
+Due to server maintenance, the original virtual environment has been lost. The current running environment configuration is as follows:
+```
+torch==2.4.0
+torchvision==0.19.0
+cuda==11.8
+mmcv==2.2.0
+```
+### dataset
+download DTLD dataset
+
+
+### train
+```
+python main_landet.py --train --config <config file path> 
+```
+eg
+```
+python main_landet.py --train --config configs/lane_detection/bezierlanenet/resnet34_liquid_aug1b_color.py
+```
+
+### test
+```
+python main_landet.py --test --config <config file path> 
+```
+eg
+```
+python main_landet.py --test --config configs/lane_detection/bezierlanenet/resnet34_liquid_aug1b_color.py
+```
 
 ## Citation
 
