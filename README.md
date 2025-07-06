@@ -1,5 +1,3 @@
-
-=======
 # Towards Dual Transparent Liquid Level Estimation in Biomedical Lab
 ### Xiayu Wang* , Ke Ma* , Ruiyun Zhong* , Xinggang Wang , Yi Fang , Yang Xiao , and Tian Xia†
 *Contributed equally as co-first authors
