@@ -1,0 +1,5 @@
+# CULANE_ROOT = '../../dataset/culane'
+CULANE_ROOT = '/mnt/ssd/wxy/CULane'
+TUSIMPLE_ROOT = '../../dataset/tusimple'
+LLAMAS_ROOT = '../../dataset/llamas'
+LIQUID_ROOT = '/mnt/ssd/liquid'
