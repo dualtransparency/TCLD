@@ -9,6 +9,8 @@ Visit our [Project Website](https://dualtransparency.github.io/liquidlevel/) for
 
 Our paper is accepted by The 18th European Conference on Computer Vision ECCV 2024 [ECCV 2024](https://eccv.ecva.net/virtual/2024/poster/254)
 
+Code is released!
+
 ![Dual Transparent Liquid in Autonomous Biomedical Lab](docs/banner_bg.png)
 
 ### Dataset:
